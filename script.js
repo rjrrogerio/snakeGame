@@ -21,6 +21,14 @@ function createSnake(){
     }
 }
 
+function update(event){
+    if (event.keyCode == 37)
+
+}
+
+document.addEventListener('keydown', update);
+
+
 function initGame(){
     createBG();
     createSnake();
@@ -46,4 +54,6 @@ function initGame(){
 }
 
 let game = setInterval(initGame, 100);
+
+
 
